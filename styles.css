@@ -212,17 +212,18 @@ footer a {
 	right: 20px;
 	padding: 11px 15px;
 	font-size: 16px;
-	background-color: #EDEDED;
-	color: pink;
-	border: none;
+	font-weight: 600;
+	background-color: #f8f8f8;
+	color: rgb(206, 103, 120);
 	border-radius: 5px;
 	cursor: pointer;
 	display: none; 
 	z-index: 1000; 
+	border: 2px solid rgba(206, 103, 120, 0.386);
   }
   #scrollToTopBtn:hover {
-	color: white;
-	background-color: #777777;
+	color: #f8f8f8;
+	background-color: rgb(206, 103, 120);
   }
 
 /* Media Queries */

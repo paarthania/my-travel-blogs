@@ -206,6 +206,25 @@ footer a {
 	height: 40px;
 }
 
+#scrollToTopBtn {
+	position: fixed;
+	bottom: 50px;
+	right: 20px;
+	padding: 11px 15px;
+	font-size: 16px;
+	background-color: #EDEDED;
+	color: black;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	display: none; 
+	z-index: 1000; 
+  }
+  #scrollToTopBtn:hover {
+	color: white;
+	background-color: #777777;
+  }
+
 /* Media Queries */
 
 @media(max-width: 1200px) {
